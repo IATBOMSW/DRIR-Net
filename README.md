@@ -1,5 +1,5 @@
 
-```markdown
+
 # 📍 DRIR-Net: Dual-Branch Rotation Invariant and Robust Network for 3D Place Recognition
 
 > A robust and rotation-equivariant approach for place recognition in large-scale 3D environments.  
@@ -17,7 +17,7 @@
 
 ## 🏗️ Architecture Overview
 
-![Architecture](figures/pipline.png)
+![Architecture](pipline.jpg)
 
 ---
 
