@@ -54,7 +54,7 @@ If you find this work useful, please cite:
 
 ## 🙏 Acknowledgements
 
-This work is inspired by [MinkLoc3D-SI](https://github.com/KamilZywanowski/MinkLoc3D-SI), [CASSPR](https://github.com/Yan-Xia/CASSPR), and the community.
+We are thankful for the remarkable work of [MinkLoc3D-SI](https://github.com/KamilZywanowski/MinkLoc3D-SI), [CASSPR](https://github.com/Yan-Xia/CASSPR), and the  community, which inspired this research.
 
 ---
 
