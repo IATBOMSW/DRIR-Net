@@ -17,7 +17,7 @@
 
 ## 🏗️ Architecture Overview
 
-![Architecture](pipline.jpg)
+![Architecture](figures/pipline.jpg)
 
 ---
 
