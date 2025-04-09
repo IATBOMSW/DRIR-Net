@@ -23,32 +23,33 @@
 
 ## 🔧 Setup
 
+This section is under construction.
+
 ```bash
 git clone https://github.com/IATBOMSW/DRIR-Net.git
 cd DRIR-Net
-pip install -r requirements.txt
 ```
 
 ---
 
 ## 🚀 Getting Started
 
+This section is under construction.
+
 
 ### Evaluation
+
 ```bash
 python eval.py --ckpt checkpoints/model_best.pth
+
 ```
 
 ---
 
-## 📈 Benchmark Results
-
-
----
 
 ## 📄 Citation
 
-If you find this work useful, please cite:
+This section is under construction.
 
 ---
 
@@ -60,5 +61,6 @@ We are thankful for the remarkable work of [MinkLoc3D-SI](https://github.com/Kam
 
 ## 📬 Contact
 
+This section is under construction.
 
 ```
