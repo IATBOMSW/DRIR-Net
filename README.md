@@ -36,13 +36,9 @@ cd DRIR-Net
 
 This section is under construction.
 
+### Training
 
 ### Evaluation
-
-```bash
-python eval.py --ckpt checkpoints/model_best.pth
-
-```
 
 ---
 
