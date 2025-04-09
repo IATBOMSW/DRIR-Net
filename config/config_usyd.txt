@@ -28,5 +28,3 @@ positives_per_query = 4
 
 train_file = usyd_training_queries.pickle
 
-resume = 0
-resume_name = model_MinkFPN_20240623_1259
