@@ -1,10 +1,9 @@
+# MinkLoc3D model
 [MODEL]
 model = MinkFPN
 pooling = GeM
 version = MinkLoc3D-S
 mink_quantization_size = 2.5,2.0,1.875
-#version = MinkLoc3D
-#mink_quantization_size = 1.0,1.0,1.0
 planes = 32,64,64
 layers = 1,1,1
 num_top_down = 1
@@ -24,14 +23,15 @@ with_pplnet = True
 t_net = False
 sectors = 256
 npoint = 32
-knn = 5
-
+knn = 3
 divide = 4
 p_num_reduce = 1
-fusion_argu = True
 fusion = True
 pw_rat = 1.0
-vw_rat = 1.0
+vw_rat = 0.0
+
+# fusion = True pw_rat = 1.0 vw_rat = 1.0 for normal
+# fusion = True pw_rat = 0.8 vw_rat = 0.2 or pw_rat = 1.0 vw_rat = 0.0 for rotation
 
 [CROSS-ATTENTION]
 with_cross_att = True
@@ -40,18 +40,9 @@ d_feedforward = 64
 dropout = 0
 transformer_act = relu
 pre_norm = True
-# dot_prod linear_attention
 attention_type = linear_attention
 sa_val_has_pos_emb = True
 ca_val_has_pos_emb = True
 num_encoder_layers = 1
 transformer_encoder_has_pos_emb = True
 
-[SELF-ATTENTION]
-with_self_att = FALSE
-num_layers = 3
-linear_att = False
-kernel_size = 3
-stride = 1
-dilation = 1
-num_heads = 8

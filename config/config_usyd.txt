@@ -7,12 +7,12 @@ dataset_folder = /home/hit201/PycharmProjects/PPLoc3D_pnv/benchmark_datasets/
 [TRAIN]
 num_workers = 4
 batch_size = 32
-batch_size_limit = 48
+batch_size_limit = 36
 batch_expansion_rate = 1.4
 batch_expansion_th = 0.7
 
 lr = 1e-3
-epochs = 50
+epochs = 40
 scheduler_milestones = 30
 
 aug_mode = 1
@@ -28,3 +28,5 @@ positives_per_query = 4
 
 train_file = usyd_training_queries.pickle
 
+resume = 1
+resume_name = model_MinkFPN_20240117_0113

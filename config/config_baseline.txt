@@ -1,0 +1,32 @@
+[DEFAULT]
+num_points = 4096
+max_distance = 100
+dataset_name = Oxford
+dataset_folder = /home/hit201/PycharmProjects/PPLoc3D_pnv/benchmark_datasets/
+
+[TRAIN]
+num_workers = 4
+batch_size = 16
+batch_size_limit = 72
+batch_expansion_rate = 1.4
+batch_expansion_th = 0.7
+
+lr = 1e-3
+epochs = 60
+scheduler_milestones = 30
+
+aug_mode = 1
+weight_decay = 1e-3
+loss = BatchHardTripletMarginLoss
+normalize_embeddings = False
+margin = 0.2
+
+similarity = euclidean
+tau1 = 0.01
+positives_per_query = 4
+
+train_file = training_queries_baseline.pickle
+
+resume = 0
+resume_name = model_MinkFPN_20240108_1109
+
